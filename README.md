@@ -1,4 +1,7 @@
 # My nvim config files
+## About this repository
+This is a backup of the old nvchad version that was used in the video https://www.youtube.com/watch?v=lsFoZIg-oDs 
+Credits go out to Dreamsofcode entirely. 
 ## Dependencies
 
 - https://github.com/neovim/neovim/blob/master/INSTALL.md
