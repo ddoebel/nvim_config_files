@@ -23,3 +23,4 @@ vim.opt.rtp:prepend(lazypath)
 -- some comment
 
 --  some other comment a b
+require "plugins"
