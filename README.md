@@ -15,3 +15,7 @@ For c++ syntax highlighting run
 ```
 inside of neovim. 
 ## Heavily based on https://github.com/NvChad
+
+
+### Hint: 
+You might want to edit the file lua/custom/configs/nvim-dap.lua at line 6 to make it work with your adapter. 
