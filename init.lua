@@ -1,8 +1,6 @@
-
-
 require "core"
-ctermbg=none
-guibg=none
+ctermbg = none
+guibg = none
 
 local custom_init_path = vim.api.nvim_get_runtime_file("lua/custom/init.lua", false)[1]
 
@@ -22,12 +20,6 @@ end
 
 dofile(vim.g.base46_cache .. "defaults")
 vim.opt.rtp:prepend(lazypath)
-require "plugins"
-local Plug = vim.fn['plug#']
-vim.call('plug#begin')
-Plug('nvim-neotest/nvim-nio')
-vim.call('plug#end')
-
--- some comment   
+-- some comment
 
 --  some other comment a b
