@@ -22,3 +22,23 @@ inside of neovim.
 
 ### Hint: 
 You might want to edit the file lua/custom/configs/nvim-dap.lua at line 6 to make it work with your adapter. 
+
+## Remove the autoformatter
+You might find the autoformatter anonying, in that case you might consider removing it. Here are the instructions for that:
+go to 
+```bash
+nvim ~/.config/nvim/lua/custom/plugins.lua
+```
+Now search for the following code snippet by typing `/null-ls` + ENTER in normal mode. 
+Remove or comment out (using `--`) the following snippet: 
+```lua
+{
+  "jose-elias-alvarez/null-ls.nvim",
+  event = "VeryLazy",
+  opts = function()
+    return require "custom.configs.null-ls"
+  end,
+},
+```
+Now quit and open neovim again, and you should be auto-formatter free. 
+
